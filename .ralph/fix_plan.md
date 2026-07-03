@@ -1,20 +1,20 @@
 # Ralph Fix Plan
 
 ## High Priority
-- [ ] Set up basic project structure (choose language/runtime, entry point in src/)
-- [ ] Implement default `coinflip` behavior: single flip, print "heads" or "tails"
-- [ ] Implement `--count N` flag: N flips, print summary tally (`heads: X` / `tails: Y`)
-- [ ] Validate `--count` argument (reject non-numeric/zero/negative with stderr message + non-zero exit)
-- [ ] Write basic tests for single flip, tally summation, and invalid input handling
+- [x] Set up basic project structure (choose language/runtime, entry point in src/)
+- [x] Implement default `coinflip` behavior: single flip, print "heads" or "tails"
+- [x] Implement `--count N` flag: N flips, print summary tally (`heads: X` / `tails: Y`)
+- [x] Validate `--count` argument (reject non-numeric/zero/negative with stderr message + non-zero exit)
+- [x] Write basic tests for single flip, tally summation, and invalid input handling
 
 ## Medium Priority
-- [ ] Make tool locally installable/runnable (e.g. npm link, pip install -e ., go build)
-- [ ] Add usage/help text (`coinflip --help`)
-- [ ] Update README.md with install and usage instructions
+- [x] Make tool locally installable/runnable (e.g. npm link, pip install -e ., go build)
+- [x] Add usage/help text (`coinflip --help`)
+- [x] Update README.md with install and usage instructions
 
 ## Low Priority
-- [ ] Polish CLI output formatting
-- [ ] Add `-c` short flag alias for `--count`
+- [x] Polish CLI output formatting
+- [x] Add `-c` short flag alias for `--count`
 
 ## Optional
 <!-- Issue #239: unchecked items in this section (and "Future"/"Future Enhancements"/

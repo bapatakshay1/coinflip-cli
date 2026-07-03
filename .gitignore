@@ -33,6 +33,9 @@ node_modules/
 # Python cache (if using Python projects)
 __pycache__/
 *.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
 
 # Rust build (if using Rust projects)
 target/
