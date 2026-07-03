@@ -1,22 +1,20 @@
 # Ralph Fix Plan
 
 ## High Priority
-- [ ] Set up basic project structure and build system
-- [ ] Define core data structures and types
-- [ ] Implement basic input/output handling
-- [ ] Create test framework and initial tests
+- [ ] Set up basic project structure (choose language/runtime, entry point in src/)
+- [ ] Implement default `coinflip` behavior: single flip, print "heads" or "tails"
+- [ ] Implement `--count N` flag: N flips, print summary tally (`heads: X` / `tails: Y`)
+- [ ] Validate `--count` argument (reject non-numeric/zero/negative with stderr message + non-zero exit)
+- [ ] Write basic tests for single flip, tally summation, and invalid input handling
 
 ## Medium Priority
-- [ ] Add error handling and validation
-- [ ] Implement core business logic
-- [ ] Add configuration management
-- [ ] Create user documentation
+- [ ] Make tool locally installable/runnable (e.g. npm link, pip install -e ., go build)
+- [ ] Add usage/help text (`coinflip --help`)
+- [ ] Update README.md with install and usage instructions
 
 ## Low Priority
-- [ ] Performance optimization
-- [ ] Extended feature set
-- [ ] Integration with external services
-- [ ] Advanced error recovery
+- [ ] Polish CLI output formatting
+- [ ] Add `-c` short flag alias for `--count`
 
 ## Optional
 <!-- Issue #239: unchecked items in this section (and "Future"/"Future Enhancements"/
